@@ -1,4 +1,30 @@
+#main[data-columns]::before {
+	content: '2 .column.size-1of2';
+}
+
+.column {
+	float: left;
+}
+
+.size-1of2 {
+	width: 47%;
+}
+
+.home main {
+	display: flex;
+	justify-content: space-between;
+} 
+
 article {
+	// &:first-child {
+	// 	width: 100%;
+	// 	.more-link {
+	// 		display: inline-block;
+	// 	}
+	// }
+	.more-link {
+		display: none;
+	}
 	border-bottom: 1px solid $accent_color3;
 	margin-bottom: 70px;
 	h3 {
@@ -31,11 +57,15 @@ article {
 }
 
 .entry-title {
+	&:first-child {
+		font-size: 30px;
+	}
 	font-family: $font_secondary2;
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: regular;
 	text-align: center;
 	margin: 20px 0;
+
 }
 
 .entry-content {

@@ -194,9 +194,24 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 #secondary {
   width: 190px; }
 
+#main[data-columns]::before {
+  content: '2 .column.size-1of2'; }
+
+.column {
+  float: left; }
+
+.size-1of2 {
+  width: 47%; }
+
+.home main {
+  display: flex;
+  justify-content: space-between; }
+
 article {
   border-bottom: 1px solid #ebebeb;
   margin-bottom: 70px; }
+  article .more-link {
+    display: none; }
   article h3 {
     display: block;
     font-size: 14px;
@@ -223,10 +238,12 @@ article {
 
 .entry-title {
   font-family: "Lora", serif;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: regular;
   text-align: center;
   margin: 20px 0; }
+  .entry-title:first-child {
+    font-size: 30px; }
 
 .entry-content p {
   line-height: 1.5;
