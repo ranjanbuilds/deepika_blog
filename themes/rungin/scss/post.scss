@@ -1,4 +1,4 @@
-#main[data-columns]::before {
+#smallPreview[data-columns]::before {
 	content: '2 .column.size-1of2';
 }
 
@@ -10,7 +10,7 @@
 	width: 47%;
 }
 
-.home main {
+.home #smallPreview {
 	display: flex;
 	justify-content: space-between;
 } 
