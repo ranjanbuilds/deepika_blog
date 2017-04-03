@@ -33,7 +33,7 @@ get_header(); ?>
 			<?php
 			while ( have_posts() ) : the_post();
 				if ( $wp_query->current_post !== 0 ):
-				get_template_part( 'template-parts/content', 'preview' );
+				get_template_part( 'template-parts/content', 'preview-small' );
 				endif;
 				// If comments are open or we have at least one comment, load up the comment template.
 				if ( comments_open() || get_comments_number() ) :
