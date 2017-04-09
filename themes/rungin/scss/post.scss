@@ -21,7 +21,7 @@
 		}
 	}
 	img {
-		margin-top: 0px;
+		margin: 0px 0px 18px 0;
 	}
 	.entry-content {
 		p {
@@ -114,6 +114,26 @@
 	}
 }
 
+.site-footer {
+	height: 400px;
+	background: black;
+	.widget {
+		.instagram-pics {
+			padding-top: 70px;
+			li {
+				width: 14%;
+				margin-right: 5px;
+				&:last-child {
+					margin-right: 0px;
+				}
+				img {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
 article {
 	// &:first-child {
 	// 	width: 100%;
@@ -128,14 +148,14 @@ article {
 	margin-bottom: 70px;
 	h3 {
 		display: block;
-		font-size: 14px;
+		font-size: 12px;
 		letter-spacing: 0.02em;
 		margin: 0px 10px;
 		text-align: center;
 		text-transform: uppercase;
 	}
 	img {
-		margin: 35px 0 10px;
+		margin: 35px 0 0px;
 		height: 60%;
 		width: 100%;
 	}
@@ -144,6 +164,7 @@ article {
 
 .author-date {
 	color: $accent_color2;
+	font-size: 12px;
 	display: flex;
 		justify-content: center;
 		align-items: center;
@@ -164,14 +185,14 @@ article {
 	font-size: 20px;
 	font-weight: regular;
 	text-align: center;
-	margin: 20px 0;
+	margin: 10px 0;
 
 }
 
 .entry-content {
 	p {
 		line-height: 1.5;
-		margin: 25px 0;
+		margin: 18px 0;
 		text-align: justify;
 		&:last-child {
 			text-align: center;
@@ -184,6 +205,8 @@ article {
 		font-size: 12px;
 		text-transform: uppercase;
 		padding: 7px 20px;
+		position: relative;
+		top: 12px;
 	}
 }
 

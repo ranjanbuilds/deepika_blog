@@ -14,11 +14,16 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'rungin' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'rungin' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'rungin' ), 'rungin', '<a href="https://automattic.com/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
+		<div id="footer-sidebar" class="secondary">
+			<div id="footer-sidebar1">
+				<?php
+					if(is_active_sidebar('footer-sidebar-1')){
+						dynamic_sidebar('footer-sidebar-1');
+					}
+				?>
+			</div>
+		</div>
+		<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

@@ -12,7 +12,7 @@
 body {
   color: #222222;
   font-family: "Lato", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   margin: 0; }
 
 a {
@@ -29,6 +29,13 @@ a {
   font-family: 'Great Vibes';
   font-size: 3.75rem;
   color: black; }
+
+footer .site-title {
+  text-align: center;
+  font-size: 2.75rem;
+  margin: 40px auto; }
+  footer .site-title a {
+    color: #fff; }
 
 .home-image {
   height: 400px;
@@ -223,7 +230,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     .home #smallPreview article .more-link {
       display: none; }
   .home #smallPreview img {
-    margin-top: 0px; }
+    margin: 0px 0px 18px 0; }
   .home #smallPreview .entry-content p:last-child {
     margin-bottom: 32px;
     text-align: justify; }
@@ -291,23 +298,37 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     .widget .instagram-pics li:nth-child(3n) img {
       margin-right: 0px; }
 
+.site-footer {
+  height: 400px;
+  background: black; }
+  .site-footer .widget .instagram-pics {
+    padding-top: 70px; }
+    .site-footer .widget .instagram-pics li {
+      width: 14%;
+      margin-right: 5px; }
+      .site-footer .widget .instagram-pics li:last-child {
+        margin-right: 0px; }
+      .site-footer .widget .instagram-pics li img {
+        width: 100%; }
+
 article {
   border-bottom: 1px solid #ebebeb;
   margin-bottom: 70px; }
   article h3 {
     display: block;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 0.02em;
     margin: 0px 10px;
     text-align: center;
     text-transform: uppercase; }
   article img {
-    margin: 35px 0 10px;
+    margin: 35px 0 0px;
     height: 60%;
     width: 100%; }
 
 .author-date {
   color: #b4b4b4;
+  font-size: 12px;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -323,13 +344,13 @@ article {
   font-size: 20px;
   font-weight: regular;
   text-align: center;
-  margin: 20px 0; }
+  margin: 10px 0; }
   .entry-title:first-child {
     font-size: 30px; }
 
 .entry-content p {
   line-height: 1.5;
-  margin: 25px 0;
+  margin: 18px 0;
   text-align: justify; }
   .entry-content p:last-child {
     text-align: center;
@@ -340,7 +361,9 @@ article {
   background-color: #53ae91;
   font-size: 12px;
   text-transform: uppercase;
-  padding: 7px 20px; }
+  padding: 7px 20px;
+  position: relative;
+  top: 12px; }
 
 .category-decorated {
   display: flex;
