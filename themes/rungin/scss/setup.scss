@@ -1,26 +1,36 @@
 // http://localhost:8888/Deepika/wp-content/uploads/2017/04/dash4border.png
-.auw_widget {
-	// height: 6px;
-	// background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
- //    border: 0;
- 	// border: 20px solid pink;
-	 //  border-image-source: url(http://localhost:8888/Deepika/wp-content/uploads/2017/04/dash4border.png);
-	 //  border-image-slice: 20 22;
-	 //  border-image-repeat: round;
-    border: 6px solid #fff;
-    border-image: repeating-linear-gradient( 135deg, 
-	$accent_color3, $accent_color3 .1em, 
-	#fff 0, #fff .3em) 10;
-	padding: 20px 15px;
-	color: #222222;
-	font-family: "Lato", sans-serif;
-	font-size: 14px;
-	text-align: center;
-	line-height: 1.5;
-	h2 {
-		font-family: "Lora", serif;
+
+.widget-area {
+	section {
+	    border: 6px solid #fff;
+	    border-image: repeating-linear-gradient( 135deg, 
+		$accent_color3, $accent_color3 .1em, 
+		#fff 0, #fff .3em) 10;
+		padding: 20px 15px;
+		color: #222222;
+		font-family: "Lato", sans-serif;
+		font-size: 14px;
+		text-align: center;
+		line-height: 1.5;
+		margin: 0 0 27px;
 	}
+
 }
+// .auw_widget {
+//     border: 6px solid #fff;
+//     border-image: repeating-linear-gradient( 135deg, 
+// 	$accent_color3, $accent_color3 .1em, 
+// 	#fff 0, #fff .3em) 10;
+// 	padding: 20px 15px;
+// 	color: #222222;
+// 	font-family: "Lato", sans-serif;
+// 	font-size: 14px;
+// 	text-align: center;
+// 	line-height: 1.5;
+// 	h2 {
+// 		font-family: "Lora", serif;
+// 	}
+// }
 
 body {
 	color: $main_color;

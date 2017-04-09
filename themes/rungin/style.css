@@ -1,4 +1,4 @@
-.auw_widget {
+.widget-area section {
   border: 6px solid #fff;
   border-image: repeating-linear-gradient(135deg, #ebebeb, #ebebeb 0.1em, #fff 0, #fff 0.3em) 10;
   padding: 20px 15px;
@@ -6,9 +6,8 @@
   font-family: "Lato", sans-serif;
   font-size: 14px;
   text-align: center;
-  line-height: 1.5; }
-  .auw_widget h2 {
-    font-family: "Lora", serif; }
+  line-height: 1.5;
+  margin: 0 0 27px; }
 
 body {
   color: #222222;
@@ -229,6 +228,69 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     margin-bottom: 32px;
     text-align: justify; }
 
+.auw_widget h2.widget-title {
+  font-family: "Lora", serif;
+  display: block;
+  text-transform: none; }
+  .auw_widget h2.widget-title:before {
+    display: none; }
+  .auw_widget h2.widget-title:after {
+    display: none; }
+
+.widget h3 {
+  display: block;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  margin: 0px 10px 10px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.widget .decorative-dash {
+  background-color: #ebebeb; }
+
+.widget .social-media img {
+  margin: 0 2px; }
+
+.widget .widget-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  margin-top: 0px;
+  text-align: center;
+  text-transform: uppercase; }
+  .widget .widget-title:before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 1px;
+    margin-right: 10px;
+    background: #ebebeb; }
+  .widget .widget-title:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 1px;
+    margin-left: 10px;
+    background: #ebebeb; }
+
+.widget .instagram-pics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px; }
+  .widget .instagram-pics li {
+    line-height: 0px; }
+    .widget .instagram-pics li img {
+      width: 53px;
+      margin-right: 3px;
+      margin-bottom: 3px; }
+    .widget .instagram-pics li:nth-child(3n) img {
+      margin-right: 0px; }
+
 article {
   border-bottom: 1px solid #ebebeb;
   margin-bottom: 70px; }
@@ -289,3 +351,25 @@ article {
   background-color: #53ae91;
   height: 1px;
   width: 45px; }
+
+.widget_categories a {
+  color: black; }
+
+.widget_categories ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+  .widget_categories ul li {
+    color: #b4b4b4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .widget_categories ul li:after {
+      content: "";
+      display: block;
+      width: 100%;
+      margin: 6px 0px;
+      height: 1px;
+      background: #ebebeb; }
+    .widget_categories ul li:last-child:after {
+      display: none; }
