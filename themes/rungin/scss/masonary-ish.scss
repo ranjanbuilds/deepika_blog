@@ -1,0 +1,34 @@
+#smallPreview[data-columns]::before {
+	content: '2 .column.size-1of2';
+}
+
+.column {
+	float: left;
+}
+
+.size-1of2 {
+	width: 47%;
+}
+
+.home #smallPreview {
+	display: flex;
+	justify-content: space-between;
+	article {
+		border: none;
+		margin-bottom: 0px;
+		.more-link {
+			display: none;
+		}
+	}
+	img {
+		margin: 0px 0px 18px 0;
+	}
+	.entry-content {
+		p {
+			&:last-child {
+				margin-bottom: 32px;
+				text-align: justify;
+			}
+		}
+	}
+} 

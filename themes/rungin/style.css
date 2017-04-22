@@ -1,14 +1,3 @@
-.widget-area section {
-  border: 6px solid #fff;
-  border-image: repeating-linear-gradient(135deg, #ebebeb, #ebebeb 0.1em, #fff 0, #fff 0.3em) 10;
-  padding: 20px 15px;
-  color: #222222;
-  font-family: "Lato", sans-serif;
-  font-size: 14px;
-  text-align: center;
-  line-height: 1.5;
-  margin: 0 0 27px; }
-
 body {
   color: #222222;
   font-family: "Lato", sans-serif;
@@ -29,13 +18,6 @@ a {
   font-family: 'Great Vibes';
   font-size: 3.75rem;
   color: black; }
-
-footer .site-title {
-  text-align: center;
-  font-size: 2.75rem;
-  margin: 40px auto; }
-  footer .site-title a {
-    color: #fff; }
 
 .home-image {
   height: 400px;
@@ -212,105 +194,6 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 #secondary {
   width: 210px; }
 
-#smallPreview[data-columns]::before {
-  content: '2 .column.size-1of2'; }
-
-.column {
-  float: left; }
-
-.size-1of2 {
-  width: 47%; }
-
-.home #smallPreview {
-  display: flex;
-  justify-content: space-between; }
-  .home #smallPreview article {
-    border: none;
-    margin-bottom: 0px; }
-    .home #smallPreview article .more-link {
-      display: none; }
-  .home #smallPreview img {
-    margin: 0px 0px 18px 0; }
-  .home #smallPreview .entry-content p:last-child {
-    margin-bottom: 32px;
-    text-align: justify; }
-
-.auw_widget h2.widget-title {
-  font-family: "Lora", serif;
-  display: block;
-  text-transform: none; }
-  .auw_widget h2.widget-title:before {
-    display: none; }
-  .auw_widget h2.widget-title:after {
-    display: none; }
-
-.widget h3 {
-  display: block;
-  font-size: 14px;
-  letter-spacing: 0.02em;
-  margin: 0px 10px 10px;
-  text-align: center;
-  text-transform: uppercase; }
-
-.widget .decorative-dash {
-  background-color: #ebebeb; }
-
-.widget .social-media img {
-  margin: 0 2px; }
-
-.widget .widget-title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 14px;
-  letter-spacing: 0.02em;
-  margin-top: 0px;
-  text-align: center;
-  text-transform: uppercase; }
-  .widget .widget-title:before {
-    content: "";
-    display: block;
-    width: 30px;
-    height: 1px;
-    margin-right: 10px;
-    background: #ebebeb; }
-  .widget .widget-title:after {
-    content: "";
-    display: block;
-    width: 30px;
-    height: 1px;
-    margin-left: 10px;
-    background: #ebebeb; }
-
-.widget .instagram-pics {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px; }
-  .widget .instagram-pics li {
-    line-height: 0px; }
-    .widget .instagram-pics li img {
-      width: 53px;
-      margin-right: 3px;
-      margin-bottom: 3px; }
-    .widget .instagram-pics li:nth-child(3n) img {
-      margin-right: 0px; }
-
-.site-footer {
-  height: 400px;
-  background: black; }
-  .site-footer .widget .instagram-pics {
-    padding-top: 70px; }
-    .site-footer .widget .instagram-pics li {
-      width: 14%;
-      margin-right: 5px; }
-      .site-footer .widget .instagram-pics li:last-child {
-        margin-right: 0px; }
-      .site-footer .widget .instagram-pics li img {
-        width: 100%; }
-
 article {
   border-bottom: 1px solid #ebebeb;
   margin-bottom: 70px; }
@@ -375,6 +258,89 @@ article {
   height: 1px;
   width: 45px; }
 
+.site-footer {
+  height: 400px;
+  background: black; }
+  .site-footer .widget .instagram-pics {
+    padding-top: 70px; }
+    .site-footer .widget .instagram-pics li {
+      width: 14%;
+      margin-right: 5px; }
+      .site-footer .widget .instagram-pics li:last-child {
+        margin-right: 0px; }
+      .site-footer .widget .instagram-pics li img {
+        width: 100%; }
+
+footer .site-title {
+  text-align: center;
+  font-size: 2.75rem;
+  margin: 40px auto; }
+  footer .site-title a {
+    color: #fff; }
+
+.widget-area section {
+  border: 6px solid #fff;
+  border-image: repeating-linear-gradient(135deg, #ebebeb, #ebebeb 0.1em, #fff 0, #fff 0.3em) 10;
+  color: #222222;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0 0 27px;
+  padding: 20px 15px;
+  text-align: center; }
+
+.auw_widget h2.widget-title {
+  font-family: "Lora", serif;
+  display: block;
+  text-transform: none; }
+  .auw_widget h2.widget-title:before {
+    display: none; }
+  .auw_widget h2.widget-title:after {
+    display: none; }
+
+.widget .social-media img {
+  margin: 0 2px; }
+
+.widget .widget-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  margin-top: 0px;
+  text-align: center;
+  text-transform: uppercase; }
+  .widget .widget-title:before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 1px;
+    margin-right: 10px;
+    background: #ebebeb; }
+  .widget .widget-title:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 1px;
+    margin-left: 10px;
+    background: #ebebeb; }
+
+.widget .instagram-pics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px; }
+  .widget .instagram-pics li {
+    line-height: 0px; }
+    .widget .instagram-pics li img {
+      width: 53px;
+      margin-right: 3px;
+      margin-bottom: 3px; }
+    .widget .instagram-pics li:nth-child(3n) img {
+      margin-right: 0px; }
+
 .widget_categories a {
   color: black; }
 
@@ -396,3 +362,31 @@ article {
       background: #ebebeb; }
     .widget_categories ul li:last-child:after {
       display: none; }
+
+#smallPreview[data-columns]::before {
+  content: '2 .column.size-1of2'; }
+
+.column {
+  float: left; }
+
+.size-1of2 {
+  width: 47%; }
+
+.home #smallPreview {
+  display: flex;
+  justify-content: space-between; }
+  .home #smallPreview article {
+    border: none;
+    margin-bottom: 0px; }
+    .home #smallPreview article .more-link {
+      display: none; }
+  .home #smallPreview img {
+    margin: 0px 0px 18px 0; }
+  .home #smallPreview .entry-content p:last-child {
+    margin-bottom: 32px;
+    text-align: justify; }
+
+#comments {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }

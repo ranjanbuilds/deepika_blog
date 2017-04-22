@@ -1,36 +1,3 @@
-// http://localhost:8888/Deepika/wp-content/uploads/2017/04/dash4border.png
-
-.widget-area {
-	section {
-	    border: 6px solid #fff;
-	    border-image: repeating-linear-gradient( 135deg, 
-		$accent_color3, $accent_color3 .1em, 
-		#fff 0, #fff .3em) 10;
-		padding: 20px 15px;
-		color: #222222;
-		font-family: "Lato", sans-serif;
-		font-size: 14px;
-		text-align: center;
-		line-height: 1.5;
-		margin: 0 0 27px;
-	}
-
-}
-// .auw_widget {
-//     border: 6px solid #fff;
-//     border-image: repeating-linear-gradient( 135deg, 
-// 	$accent_color3, $accent_color3 .1em, 
-// 	#fff 0, #fff .3em) 10;
-// 	padding: 20px 15px;
-// 	color: #222222;
-// 	font-family: "Lato", sans-serif;
-// 	font-size: 14px;
-// 	text-align: center;
-// 	line-height: 1.5;
-// 	h2 {
-// 		font-family: "Lora", serif;
-// 	}
-// }
 
 body {
 	color: $main_color;
@@ -56,17 +23,6 @@ a {
 	font-family: 'Great Vibes';
 	font-size: 3.75rem;
 	color: black;
-}
-
-footer {
-	.site-title {
-		text-align: center;
-		font-size: 2.75rem;
-		margin: 40px auto;
-		a {
-			color: #fff;
-		}
-	}
 }
 
 .home-image {
