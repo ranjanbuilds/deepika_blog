@@ -48,12 +48,7 @@ if ( post_password_required() ) {
 		<?php endif; // Check for comment navigation. ?>
 
 		<ol class="comment-list">
-			<?php
-				wp_list_comments( array(
-					'style'      => 'ol',
-					'short_ping' => true,
-				) );
-			?>
+			<?php wp_list_comments('type=comment&callback=format_comment'); ?>
 		</ol><!-- .comment-list -->
 
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through? ?>
@@ -78,6 +73,14 @@ if ( post_password_required() ) {
 		<p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'rungin' ); ?></p>
 	<?php
 	endif;
+
+	$args = array(
+		'type' => 'post',
+		'before' => "<p>",
+		'after' => "</p> \n",
+		'echo' => TRUE
+	);
+
 
 	comment_form();
 	?>
