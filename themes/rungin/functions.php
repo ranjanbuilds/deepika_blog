@@ -118,7 +118,7 @@ function rungin_scripts() {
 
 	wp_enqueue_script("jquery");
 
-	wp_enqueue_script( 'salavattore', get_template_directory_uri() . '/js/initialize-stuff.js', array(), null, true);
+	// wp_enqueue_script( 'salavattore', get_template_directory_uri() . '/js/initialize-stuff.js', array(), null, true);
 
 	wp_enqueue_script( 'salavattore', get_template_directory_uri() . '/js/salvattore.min.js', array(), null, true);
 
