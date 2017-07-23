@@ -258,6 +258,10 @@ article {
   height: 1px;
   width: 45px; }
 
+.page .entry-title {
+  margin-right: 10px;
+  margin-left: 10px; }
+
 .site-footer {
   height: 400px;
   background: black; }

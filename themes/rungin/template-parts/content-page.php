@@ -15,13 +15,12 @@
 		
 		<div class="category-decorated">
 			<div class="decorative-dash"></div>
-			<h3><?php the_category(' '); ?></h3>
+			<?php 
+			the_title( '<h1 class="entry-title">', '</h1>' ); 
+			?>
 			<div class="decorative-dash"></div>
 		</div>
 		
-		<?php 
-		the_title( '<h1 class="entry-title">', '</h1>' ); 
-		?>
 
 		<div class="author-date">
 			<span>By <?php the_author() ?></span>
@@ -29,7 +28,7 @@
 			<span><?php the_date(); ?></span>
 		</div>
 	</header><!-- .entry-header -->
-
+	
 	<div class="entry-content">
 		<?php if ( has_post_thumbnail() ) : ?>
 		    <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute();?>" class="entry-image">
